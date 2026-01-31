@@ -1,5 +1,5 @@
 const readline = require('readline');
-const hitung = require('./rumus');
+const hitung = require('./rumus2');
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -23,4 +23,5 @@ rl.question("Masukkan angka pertama: ", (a) => {
             rl.close();
         });
     });
+
 });
