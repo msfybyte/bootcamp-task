@@ -1,4 +1,4 @@
-import { kalkulator } from './rumus2.js';
+import { kalkulator } from './rumus.js';
 import readline from 'readline';
 
 // Membuat interface input terminal
@@ -37,5 +37,6 @@ inputUser.question('Masukkan angka pertama: ', angka1 => {
         });
 
     });
+
 
 });
